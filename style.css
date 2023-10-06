@@ -1,0 +1,99 @@
+.navbar img{
+    width: 5%;
+}
+
+.navbar {
+    background-color:#353a40;
+    color: white;
+}
+
+.navbar div{
+    color: white;
+    justify-content: space-around;
+}
+
+#InfoConferencia{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(imagenes/ba1.jpg);
+    background-position: center;
+    color: white;
+    max-width: 100%;
+    height: 700px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+#InfoConferencia div{
+    position: absolute;
+    width: 40%;
+    right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: auto;
+    color: white;
+}
+
+#InfoConferencia button{
+    width: 30%;
+    margin: 0% 5%;
+}
+
+
+#cartas {
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#InfoCiudad img{
+    background-color: blueviolet;
+    width: 50%;
+    height: auto;
+}
+
+.card-img-overlay {
+    width: 50%;
+    margin-left: 50%;
+}
+
+
+#InscripcionOra{
+    background-color: white;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+}
+
+#estil {
+    width: 50%;
+}
+
+#estil div{
+    margin: 15px 5px;
+}
+
+#estil button{
+    background-color: rgb(8, 209, 8);
+    border: rgb(8, 209, 8);
+}
+
+.nav{
+    background-color: #1e516e;
+    height: 100px;
+    align-items: center;
+}
+
