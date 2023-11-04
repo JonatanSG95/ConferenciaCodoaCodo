@@ -97,3 +97,51 @@
     align-items: center;
 }
 
+#cuadros {
+    display: flex;
+    justify-content: center;
+}
+
+#cuadros span {
+    margin: 20px;
+    padding-top: 10px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ofertas {
+    margin: 20px;
+    padding-top: 10px;
+    width: 250px;
+    height: 250px;
+    border: solid;
+    border-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.leyenda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulario {
+    margin: 5%;
+}
+
+#botonesCompra {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#botonesCompra button{
+    background-color: rgb(8, 209, 8);
+    border: rgb(8, 209, 8);
+}
