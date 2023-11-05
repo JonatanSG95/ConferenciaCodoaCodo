@@ -16,11 +16,11 @@ function sumar(variable1, variable2){
 
 const resumen = document.querySelector("#calculoCompra");
 
+
 resumen.addEventListener("click", () => {
 
     const numero = parseInt(document.getElementById("CantidadEntradas").value);
-    const descuento = document.querySelector("#tipoDescuento");
-
+    const descuento = parseFloat(document.querySelector("#inputState").value);
 
     console.log(descuento);
 
@@ -28,13 +28,17 @@ resumen.addEventListener("click", () => {
 
     console.log(precioTotal)
 
+    let precioFinal = precioTotal*descuento;
 
+    console.log(precioFinal);
 
-    let suma = sumar(numero, 5);
-    let suma2 = sumar(23, -12);
+    const mostrarPrecio = document.querySelector("#precioPagar");
+    const mostrar = document.createElement("p");
 
-    console.log(suma);
-    console.log(suma2);
+    mostrar.textContent = precioFinal;
+
+    mostrarPrecio.appendChild(mostrar);
+
     
 }) 
 //console.log(suma)
